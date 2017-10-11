@@ -49,7 +49,7 @@ h5 {
   font-weight: 400;
   text-transform: uppercase;
   margin: 0;
-  color: #c0392b;
+  color: #c43;
 }
 
 
@@ -68,7 +68,7 @@ footer {
   display: -ms-flexbox;  /* TWEENER - IE 10 */
   display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
   flex-wrap: wrap;
-  background-color: #fef9f7;
+  background-color: #fff;
 }
 
 
@@ -102,7 +102,7 @@ header {
 .profile h2 {
   font-size: 1.3em;
   text-transform: capitalize;
-  color: #0e0e0e;
+  color: #111;
 }
 
 
@@ -136,12 +136,12 @@ li {
   font-weight: 400;
   text-align: center;
   font-size: 0.8em;
-  color: #3498db;
+  color: #3ae;
 }
 
 
 .social_media a:hover, a:focus {
-  color: #2980b9;
+  color: #38c;
 }
 
 
@@ -160,7 +160,7 @@ main {
   font-size: 0.85em;
   padding: 10px 20px;
   text-align: right;
-  background-color: #98bec8;
+  background-color: #acd;
 }
 
 
@@ -171,13 +171,16 @@ footer {
   order: 4;
   height: auto;
   display: flex;
+  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
   flex-wrap: wrap;
   padding-top: 10px;
 }
 
 
 .footer_title {
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #eee;
   line-height: 25px;
   width: 100%;
   margin: 10px 0 0;
@@ -190,7 +193,7 @@ figure {
   height: auto;
   margin: 0;
   padding: 20px 25px;
-  border: 1px solid #f5f2f1;
+  border: 1px solid #fff;
 }
 
 
@@ -210,7 +213,7 @@ figure a:hover {
 
 figure:nth-child(even) {
   /* background color for every-other box-item */
-  background-color: #ecf0f1;
+  background-color: #fff;
 }
 
 

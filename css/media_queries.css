@@ -1,18 +1,18 @@
 /* Media Queries*/
 
 @media screen and ( min-width: 400px) {
-  /*  Header - adjusting the hight and centering content  */
+  /*  Header - adjusting the height and centering content  */
   header { height: 325px; padding-top: 80px;}
 }
 
 
 @media screen and ( min-width: 600px) {
   header {
+    /*  Header - adjusting the height and spliting logo to left and profile right  */
     height: 100px;
     padding-top: 10px;
     border-bottom: 2px solid #f1c40f;
     margin: 20px 20px;
-    clear: both;
   }
 
 
@@ -32,7 +32,7 @@
   .profile {
     float: right;
     text-align: right;
-    width: 49%;
+    width: 50%;
     padding-top: 10px;}
 
 
@@ -42,7 +42,7 @@
 
   .hero { padding: 20px; height: 380px; margin: 0 20px;}
 
-  .hero p { position: relative; top: 35%;}
+  .hero p { position: relative; top: 30%;}
 
   .footer_title { text-align: left; padding-left: 20px;}
 
