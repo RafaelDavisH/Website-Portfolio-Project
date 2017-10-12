@@ -29,4 +29,6 @@ Two google fonts are used for the website. [`Catarell`](https://fonts.google.com
 ```
 ## BEM - **Block, Element, Modifier**
 
-I used the **BEM** methodology for a more organized code and easier to follow. **BEM** its a popular naming convention for classes in HTML and CSS. Developed by the team at Yandex. for to learn more about **BEM** [click here](https://en.bem.info/).
+I used the **BEM** methodology for a more organized code and easier to follow. **BEM** its a popular naming convention for classes in HTML and CSS. Developed by the team at Yandex.
+
+*To learn more about **BEM** [click here](https://en.bem.info/).*
