@@ -7,68 +7,96 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/media_queries.css">
     <link href="https://fonts.googleapis.com/css?family=Cantarell:400,700|Fjalla+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/e5b8a330e2.css">
+    <link rel="icon" type="image/png" href="img/favicon-32px.png" sizes="32x32" />
+    <meta name="theme-color" content="#f1c40f">
   </head>
+
     <body>
-      <div class="container">
-        <header>
-          <div class="logo">
-            <img src="img/rdhLogo.svg" alt="logo">
+      <div class="container layout--flex">
+        <header class="hd">
+          <div class="hd__logo">
+            <img class="logo__img" src="img/rdhLogo.svg" alt="logo">
           </div>
-          <div class="profile">
-            <h2>rafael d. hernandez</h2>
-            <p>jr. full-stack web developer</p>
-            <nav>
-              <ul class="social_media">
-                <li><a href="https://twitter.com/RafaelDavisH" >twitter</a></li>
-                <li><a href="https://github.com/RafaelDavisH" >github</a></li>
-              </ul>
-            </nav>
+          <div class="hd__profile">
+            <h2 class="profile__name">rafael d. hernandez</h2>
+            <p class="profile__title">jr. full-stack web developer</p>
+
           </div>
+          <ul class="hd__s-media">
+            <li class="s-media__list">
+              <a class="list__link" href="https://twitter.com/RafaelDavisH">
+                <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="s-media__list">
+              <a  class="list__link" href="https://github.com/RafaelDavisH">
+                <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
 
         </header>
-          <main>
-            <div class="hero">
-                <p><q>Programming is not for everybody, just for those who like
-                  to solve problems and create solutions! I love it.</q> <br>
-                  <em>Rafael D. Hernandez</em></p>
-            </div>
-          </main>
 
-        <footer>
-          <h3 class="footer_title">Current Work</h3>
-            <figure class="box-item1">
-              <a href="https://github.com/RafaelDavisH/My-Favorite-Movie-Trailers"><img src="img/movie_trailers_website.png" alt="Movie Trailer
-              Website" ></a>
-              <figcaption>
-                <h4>Movie Trailer Website</h4>
-                <p>Server-side code written in Python to store a list of my
-                  favorite movies, including box art imagery and a movie
-                  trialer URL. This data is then served to a web page using
-                  HTML and CSS allowing visitors to review these movies and
-                  watch the trailers.</p>
-              </figcaption>
-            </figure>
+        <div class="quote">
+          <p class="quote__pg">
+            <q class="pg__quote">Programming is not for everybody, just for those who like to solve problems and create solutions! I love it.</q>
+            <br>
+            <em>Rafael D. Hernandez</em>
+          </p>
+        </div>
 
-            <figure class="box-item2">
-              <a href="https://github.com/RafaelDavisH/quiz_game"><img src="img/quiz_game.png" alt="Quiz Game" ></a>
-              <figcaption>
-                <h4>Quiz Game</h4>
-                <p>Built a fill-in-the blanks type quiz to leverage the power
-                  of functions in Python and mastered the ability to automate
-                  repetive tasks that can be done on a computer.</p>
-              </figcaption>
-            </figure>
+        <main class="work layout--flex">
+          <h3 class="work__title">Current Work</h3>
+          <figure class="work__item work__item--bg-gray item--full-width">
+            <a class="item__link" href="https://github.com/RafaelDavisH/My-Favorite-Movie-Trailers">
+              <img class="link__img" src="img/movie_trailers_website.png" alt="Movie Trailer
+              Website">
+            </a>
+            <figcaption class="item__caption">
+              <h4 class="caption__title">Movie Trailer Website</h4>
+              <p class="caption__pg">Server-side code written in Python to store a list of my favorite movies, including box art imagery and a movie trialer URL. This data is then served to a web page using HTML and CSS allowing visitors to review these movies and watch the trailers.</p>
+            </figcaption>
+          </figure>
 
-            <figure class="box-item3">
-              <a href="#"><img src="img/make_a_website.png" alt="Personal Website" ></a>
-              <figcaption>
-                <h4>Make a Web Page</h4>
-                <p>Bilt using HTML and CSS, this project demosntrates knowledge
-                  of basic website design.</p>
-              </figcaption>
-            </figure>
+          <figure class="work__item">
+            <a class="item__link" href="https://github.com/RafaelDavisH/quiz_game">
+              <img class="link__img" src="img/quiz_game.png" alt="Quiz Game" >
+            </a>
+            <figcaption class="item__caption">
+              <h4 class="caption__title">Quiz Game</h4>
+              <p class="caption__pg">Built a fill-in-the blanks type quiz to leverage the power of functions in Python and mastered the ability to automate repetive tasks that can be done on a computer.</p>
+            </figcaption>
+          </figure>
 
+          <figure class="work__item work__item--bg-gray">
+            <a class="item__link" href="#">
+              <img class="link__img" src="img/make_a_website.png" alt="Personal Website" >
+            </a>
+            <figcaption class="item__caption">
+              <h4 class="caption__title">Make a Web Page</h4>
+              <p class="caption__pg">Bilt using HTML and CSS, this project demosntrates knowledge of basic website design.</p>
+            </figcaption>
+          </figure>
+        </main>
+
+        <footer class="ft">
+            <ul class="ft__s-media">
+              <li class="s-media__list list__link--gray">
+                <a class="list__link list__link--gray" href="https://twitter.com/RafaelDavisH">
+                  <i class=" fa fa-twitter fa-lg " aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="s-media__list">
+                <a class="list__link list__link--gray" href="https://github.com/RafaelDavisH">
+                  <i class=" fa fa-github fa-lg " aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+            <span class="copyright">&copy; Copyright 2017 RafaelDavisH</span>
         </footer>
+
       </div>
     </body>
+
 </html>

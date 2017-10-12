@@ -2,71 +2,73 @@
 
 @media screen and ( min-width: 400px) {
   /*  Header - adjusting the height and centering content  */
-  header { height: 325px; padding-top: 80px;}
+  .hd { height: 325px; padding-top: 80px;}
 }
 
 
 @media screen and ( min-width: 600px) {
-  header {
+  .hd {
     /*  Header - adjusting the height and spliting logo to left and profile right  */
-    height: 100px;
+    height: 120px;
     padding-top: 10px;
     border-bottom: 2px solid #f1c40f;
     margin: 20px 20px;
   }
 
 
-  .logo {
-    order: 0;
+  .hd__logo {
     float: left;
     width: 50%;
   }
 
 
-  .logo img {
+  .logo__img {
     height: 75px;
     margin: 0;
   }
 
 
-  .profile {
+  .hd__profile {
     float: right;
     text-align: right;
     width: 50%;
     padding-top: 10px;}
 
 
-  .social_media { float: right; text-align: center;}
+  .hd__s-media { float: right; text-align: center;}
 
-  .hero q { font-size: 2em;}
+  .pg__quote { font-size: 2em;}
 
-  .hero { padding: 20px; height: 380px; margin: 0 20px;}
+  .quote { padding: 20px; height: 380px; margin: 0 20px;}
 
-  .hero p { position: relative; top: 30%;}
+  .quote__pg { position: relative; top: 30%;}
 
-  .footer_title { text-align: left; padding-left: 20px;}
+  .work__title { text-align: left; padding-left: 20px;}
 
-  figure { width: 50%;}
+  .work__item { width: 50%;}
 
-  figure:nth-child(2) { width: 100%;}
+  .item--full-width { width: 100%;}
 
-  .box-item2,
-  .box-item3 { padding: 20px 20px; margin-bottom: 0;}
+  .work__item { padding: 20px 20px; margin-bottom: 0;}
 }
 
+
+
 @media screen and ( min-width: 800px) {
-  header { height: 130px;}
+  .hd { height: 130px;}
 
-  .logo img { height: 110px;}
+  .logo__img { height: 110px;}
 
-  .profile h2 { font-size: 2em;}
+  .profile__name { font-size: 2em;}
 
-  .profile p { font-size: 1em;}
+  .profile__title { font-size: 1em;}
 
-  figure { width: 33.3%;}
+  .work__item { width: 33.3%;}
 
-  figure:nth-child(2) { width: 33.3%;}
-
-  .box-item1 { padding: 20px 20px; margin-bottom: 0;}
+  .work__item:nth-child(2) {
+    width: 33.3%;
+    padding: 20px 20px;
+    margin-bottom: 0;
+  }
 
 }
