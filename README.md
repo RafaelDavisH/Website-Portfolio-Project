@@ -27,3 +27,6 @@ Two google fonts are used for the website. [`Catarell`](https://fonts.google.com
    <link href="https://fonts.googleapis.com/css?family=Cantarell:400,700|Fjalla+One" rel="stylesheet">
 </head>
 ```
+## BEM - **Block, Element, Modifier**
+
+I used the **BEM** methodology for a more organized code and easier to follow. **BEM** its a popular naming convention for classes in HTML and CSS. Developed by the team at Yandex. for to learn more about **BEM** [click here](https://en.bem.info/).
