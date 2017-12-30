@@ -39,13 +39,13 @@ footer {
 
 
 #main {
-  background: url("background.png");
+
+  background: #5E218B url("../img/background@2x.png") center -30px;
   background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-color: #7B05D1;
+  background-size: 150% 125%;
+  -webkit-background-size: 150% 125%;
+  -moz-background-size: 150% 125%;
+  -o-background-size: 150% 125%;
   grid-column: 1/-1;
   grid-row: 1;
   min-width: 0;
@@ -175,6 +175,7 @@ video {
 .hd__pg {
   color: white;
   justify-content: center;
+  z-index: 2;
 
 }
 
