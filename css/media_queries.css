@@ -43,6 +43,9 @@
   .main-menu__link { color: white; font-weight: 100; font-size: .70em ;letter-spacing: 2px;}
   .hd__hero { font-size: 8.10em;}
   .hd__pg { font-size: 2.25em;}
+  .pro__pg {display: inherit;}
+  .pro__read-more { display: inline;}
+  .pro__read-more a { text-decoration: none}
 
 }
 
